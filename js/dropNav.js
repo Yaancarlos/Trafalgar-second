@@ -4,11 +4,11 @@ const magnifyingGlass = document.querySelector ('#magnifyingGlass')
 const searchBox = document.querySelector ('#searchBox')
 const productsBtn = document.getElementById ("productsBtn")
 const btn23 = document.getElementById("btn23")
-
-btnFirst.addEventListener('click', ()=>{
+  
+btnFirst.addEventListener("click", ()=>{
     listFirsy.classList.toggle('hidden')
 })
-
+ 
 function showNav23() {
     document.getElementById("sm-nav23").classList.toggle("hidden")
 }
